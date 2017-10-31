@@ -1,0 +1,13 @@
+<h1>指令(directive)</h1>
+
+<!-- ************** -->
+<h3>属性指令</h3>
+<button type="button" myButton="aaa">按钮</button>
+
+<!-- ************** -->
+<h3>结构指令</h3>
+<div>
+    <button (click)="isShow = !isShow">点击试试</button>
+    <!-- <div >ngIf结构型指令</div> -->
+    <ng-template [myIf]="isShow">else效果</ng-template>
+</div>
